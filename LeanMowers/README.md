@@ -37,8 +37,13 @@ python examples\example_usage.py
 
 # UI — run each in a separate terminal
 cd ui; npm install; cd ..
-python ui\backend\server.py          # Terminal 1
-cd ui; npx vite --host               # Terminal 2
+
+# Terminal 1 — Backend (FastAPI on port 8420)
+cd ui\backend
+uvicorn server:app --reload --port 8420
+
+# Terminal 2 — Frontend (React + Vite)
+cd ui; npx vite --host
 # Open http://localhost:5173
 ```
 
