@@ -33,9 +33,22 @@ theorem listLen_append (xs ys : List Int) :
     simp [listLen, ih]
     omega
 
-theorem sqDiff_nonneg (x c : Int) : 0 ≤ sqDiff x c := by
-  sorry
+private theorem int_mul_self_nonneg (a : Int) : 0 ≤ a * a := by
+  cases a with
+  | ofNat n => exact Int.ofNat_nonneg _
+  | negSucc n => exact Int.ofNat_nonneg _
 
+theorem sqDiff_nonneg (x c : Int) : 0 ≤ sqDiff x c := by
+  unfold sqDiff
+  exact int_mul_self_nonneg (x - c)
+
+theorem innerProd_self_nonneg (xs : List Int) :
+    0 ≤ innerProd xs xs := by
+  induction xs with
+  | nil => simp [innerProd]
+  | cons x xs ih =>
+    simp only [innerProd]
+    exact Int.add_nonneg (int_mul_self_nonneg x) ih
 
 theorem listSum_nonneg (xs : List Int)
     (h : ∀ x ∈ xs, 0 ≤ x) :
@@ -50,10 +63,6 @@ theorem listSum_nonneg (xs : List Int)
       intro y hy
       exact h y (List.mem_cons_of_mem x hy)
     omega
-
-theorem innerProd_self_nonneg (xs : List Int) :
-    0 ≤ innerProd xs xs := by
-  sorry
 
 
 theorem binTotal_append (xs ys : List Nat) :
