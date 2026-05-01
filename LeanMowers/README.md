@@ -36,6 +36,9 @@ hackathon-april2026.html)
 
 ---
 
+## Accompanying design doc 
+- [https://docs.google.com/document/d/1MVSsc2X11gWjFLgrFlAk7GfpBBxjhypHZMajD1NogtM/edit?usp=sharing](https://docs.google.com/document/d/1MVSsc2X11gWjFLgrFlAk7GfpBBxjhypHZMajD1NogtM/edit?usp=sharing)
+
 ## Quick Start (one command)
 
 **Windows (PowerShell or CMD):**
