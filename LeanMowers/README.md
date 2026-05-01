@@ -18,22 +18,6 @@ Organized by **[Emergence India Labs]
 (https://east.emergence.ai)** in collaboration with
 **IISc Bangalore**.
 
-## Acknowledgments
-This project was made possible by:
-- **Emergence AI** — Hackathon sponsor
-- **Emergence India Labs** — Event organizer and
-research direction
-- **Indian Institute of Science (IISc), Bangalore** —
-Academic partner, hackathon co-design, tutorials,
-and mentorship
-
-## Links
-- [Hackathon Page](https://east.emergence.ai/
-hackathon-april2026.html)
-- [Emergence India Labs](https://east.emergence.ai)
-- [Emergence AI](https://www.emergence.ai)
-
-
 ---
 
 ## Accompanying design doc 
@@ -130,4 +114,21 @@ cd lean && lake build
 └── pyproject.toml
 ```
 
-MIT License.
+[MIT License](https://github.com/abhiramr/lean-hackathon/blob/main/LeanMowers/LICENSE)
+
+---
+
+## Acknowledgments
+This project was made possible by:
+- **Emergence AI** — Hackathon sponsor
+- **Emergence India Labs** — Event organizer and
+research direction
+- **Indian Institute of Science (IISc), Bangalore** —
+Academic partner, hackathon co-design, tutorials,
+and mentorship
+
+## Links
+- [Hackathon Page](https://east.emergence.ai/
+hackathon-april2026.html)
+- [Emergence India Labs](https://east.emergence.ai)
+- [Emergence AI](https://www.emergence.ai)
