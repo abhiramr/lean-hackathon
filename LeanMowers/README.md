@@ -1,8 +1,38 @@
 # Verified EDA
 
-**Formally Verified Exploratory Data Analysis — Python × Lean 4 × Agentic AI**
+**Verified EDA: Formally Verified Exploratory Data Analysis (Python × Lean 4 × Agentic AI)**
 
-A complete system that performs EDA in Python, mirrors every operation in Lean 4 with machine-checked proofs, and orchestrates the verification pipeline with agentic AI — plus a mission-control dashboard UI.
+### Abstract: 
+Verified EDA is a critical software system designed to eliminate the fundamental "Trust Gap" in Exploratory Data Analysis (EDA) by introducing formal mathematical verification. Traditional EDA workflows using Python libraries like Pandas and NumPy offer no mathematical guarantee of correctness, which poses a risk in regulated industries.1
+
+This project bridges that gap by mirroring every Python EDA operation in Lean 4, a dependently-typed proof assistant, to formally prove theorems that certify the correctness of each analytical step. It presents a complete system that performs EDA in Python, mirrors every operation in Lean 4 with machine-checked proofs, and orchestrates the verification pipeline with agentic AI — plus a mission-control dashboard UI.
+
+
+## Origin
+This project was built during the **LeanLang for Verified
+Autonomy Hackathon** (April 17–18 + online through May 1,
+2026) at the **Indian Institute of Science (IISc),
+Bangalore**.
+Sponsored by **[Emergence AI](https://www.emergence.ai)**
+Organized by **[Emergence India Labs]
+(https://east.emergence.ai)** in collaboration with
+**IISc Bangalore**.
+
+## Acknowledgments
+This project was made possible by:
+- **Emergence AI** — Hackathon sponsor
+- **Emergence India Labs** — Event organizer and
+research direction
+- **Indian Institute of Science (IISc), Bangalore** —
+Academic partner, hackathon co-design, tutorials,
+and mentorship
+
+## Links
+- [Hackathon Page](https://east.emergence.ai/
+hackathon-april2026.html)
+- [Emergence India Labs](https://east.emergence.ai)
+- [Emergence AI](https://www.emergence.ai)
+
 
 ---
 
