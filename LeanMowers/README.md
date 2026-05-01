@@ -3,7 +3,7 @@
 **Verified EDA: Formally Verified Exploratory Data Analysis (Python × Lean 4 × Agentic AI)**
 
 ### Abstract: 
-Verified EDA is a critical software system designed to eliminate the fundamental "Trust Gap" in Exploratory Data Analysis (EDA) by introducing formal mathematical verification. Traditional EDA workflows using Python libraries like Pandas and NumPy offer no mathematical guarantee of correctness, which poses a risk in regulated industries.1
+Verified EDA is a critical software system designed to eliminate the fundamental "Trust Gap" in Exploratory Data Analysis (EDA) by introducing formal mathematical verification. Traditional EDA workflows using Python libraries like Pandas and NumPy offer no mathematical guarantee of correctness, which poses a risk in regulated industries.
 
 This project bridges that gap by mirroring every Python EDA operation in Lean 4, a dependently-typed proof assistant, to formally prove theorems that certify the correctness of each analytical step. It presents a complete system that performs EDA in Python, mirrors every operation in Lean 4 with machine-checked proofs, and orchestrates the verification pipeline with agentic AI — plus a mission-control dashboard UI.
 
