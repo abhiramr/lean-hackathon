@@ -20,8 +20,9 @@ Organized by **[Emergence India Labs]
 
 ---
 
-## Accompanying design doc 
+## Accompanying design doc & PPT
 - [https://docs.google.com/document/d/1MVSsc2X11gWjFLgrFlAk7GfpBBxjhypHZMajD1NogtM/edit?usp=sharing](https://docs.google.com/document/d/1MVSsc2X11gWjFLgrFlAk7GfpBBxjhypHZMajD1NogtM/edit?usp=sharing)
+- [https://github.com/abhiramr/lean-hackathon/blob/main/LeanMowers/LeanMowers_VerifiedEDA_Presentation.pptx](https://github.com/abhiramr/lean-hackathon/blob/main/LeanMowers/LeanMowers_VerifiedEDA_Presentation.pptx)
 
 ## Quick Start (one command)
 
@@ -74,7 +75,7 @@ python ui/backend/server.py    # Terminal 1
 cd ui && npm install && npm run dev   # Terminal 2
 ```
 
-### Lean 4 (optional)
+### Lean 4 
 
 ```bash
 curl -sSf https://raw.githubusercontent.com/leanprover/elan/master/elan-init.sh | sh -s -- -y
